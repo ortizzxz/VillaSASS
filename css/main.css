@@ -21,7 +21,7 @@ a:hover {
 }
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../img/villamontana.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/villamar.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
   text-align: center;
