@@ -2,6 +2,9 @@
 ## Descripción del Proyecto
 VillaSASS es un proyecto de landing page que utiliza Sass para el diseño y estilos. Este sitio está diseñado para mostrar las capacidades de Sass en la creación de interfaces visuales atractivas y responsivas.
 
+# Acceso al Proyecto
+Puedes acceder al sitio en vivo en https://ortizzxz.github.io/VillaSASS/.
+
 ## Características
 - Diseño Responsivo: El sitio se adapta a diferentes tamaños de pantalla.
 
@@ -16,6 +19,15 @@ VillaSASS es un proyecto de landing page que utiliza Sass para el diseño y esti
 
 - CSS: Generado a partir de Sass.
 
-# Acceso al Proyecto
-Puedes acceder al sitio en vivo en https://ortizzxz.github.io/VillaSASS/.
+- Gulp: Para automatizar tareas como la compilación de SCSS, minificación de CSS y sincronización del navegador.
+
+# Gulp Tasks
+- gulp sass: Compila SCSS a CSS y recarga el navegador.
+
+- gulp serve: Inicia un servidor de desarrollo y observa cambios en SCSS, HTML y JS para recargar el navegador automáticamente.
+
+- gulp minimize: Minifica el archivo CSS principal y lo guarda en la carpeta dist/css.
+
+- gulp default: Ejecuta las tareas sass y serve por defecto.
+
  
